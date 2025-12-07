@@ -1,16 +1,5 @@
 📊 DBSCAN – Clustering di prodotti basato sulla densità
 Progetto per il corso “Principi e Modelli della Percezione” – A.A. 2025/2026
-
-📁 Dataset
-Il dataset contiene 800 prodotti, ciascuno monitorato per 52 settimane. Ogni riga rappresenta un prodotto e ogni colonna il volume di vendita settimanale.
-
-🎯 Obiettivo
-L’obiettivo del progetto è:
-individuare cluster di prodotti che condividono pattern di vendita simili;
-identificare outlier con comportamenti anomali;
-supportare strategie di riassortimento e analisi delle performance.
-
-🧠 DBSCAN
 DBSCAN (Density-Based Spatial Clustering of Applications with Noise) è stato scelto perché:
 non richiede di specificare il numero di cluster;
 gestisce cluster di forma arbitraria;
@@ -20,6 +9,15 @@ identifica naturalmente il rumore (etichette = -1);
 Due parametri fondamentali utilizzati:
 eps: raggio di vicinanza tra punti;
 minPts: minimo numero di punti per definire una zona densa.
+
+📁 Dataset
+Il dataset contiene 800 prodotti, ciascuno monitorato per 52 settimane. Ogni riga rappresenta un prodotto e ogni colonna il volume di vendita settimanale.
+
+🎯 Obiettivo
+L’obiettivo del progetto è:
+individuare cluster di prodotti che condividono pattern di vendita simili;
+identificare outlier con comportamenti anomali;
+supportare strategie di riassortimento e analisi delle performance.
 
 📈 Risultati principali
 Sono state realizzate diverse visualizzazioni per interpretare i cluster:
